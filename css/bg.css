@@ -1,0 +1,101 @@
+/* 
+	Section Background (bg.css)
+	
+	Table of Content
+	- general settings for section & subheader
+	- general background image for subheader
+	- background settings for page subheader
+	- background settings for single project subheader
+	- background settings for section
+	- media query
+/*
+
+
+/* general settings for section & subheader */
+section,#subheader{
+-webkit-background-size: 100% !important;
+-moz-background-size: 100% !important;
+-o-background-size: 100% !important;
+background-size: 100% !important;
+}
+
+
+/* general background image for subheader */
+#subheader{
+background:url(../images/background/bg-subheader.jpg)top fixed;
+}
+
+
+/* background settings for page subheader */
+.page-projects #subheader{background-image:url(../images/background/subheader-1.jpg);}
+.page-services #subheader{background-image:url(../images/background/subheader-2.jpg);}
+.page-about #subheader{background-image:url(../images/background/subheader-3.jpg);}
+.page-blog #subheader{background-image:url(../images/background/subheader-4.jpg);}
+.page-shop #subheader{background-image:url(../images/background/subheader-5.jpg);}
+.page-contact #subheader{background-image:url(../images/background/subheader-6.jpg);}
+
+
+/* background settings for single project subheader */
+.page-project-1 #subheader{background-image:url(../images/background/subheader-project-1.jpg);}
+.page-project-2 #subheader{background-image:url(../images/background/subheader-project-2.jpg);}
+.page-project-3 #subheader{background-image:url(../images/background/subheader-project-3.jpg);}
+.page-project-4 #subheader{background-image:url(../images/background/subheader-project-4.jpg);}
+.page-project-5 #subheader{background-image:url(../images/background/subheader-project-5.jpg);}
+
+
+/* background settings for section */
+#section-features{ background:url(../images/background/bg-1.jpg) top fixed;}
+#section-steps{ background:url(../images/background/bg-1.jpg) top fixed;}
+#section-steps-2{ background:url(../images/background/bg-16.jpg) top fixed;}
+#section-welcome{background:url(../images/background/bg-2.jpg) top fixed;}
+#section-hero-1{ background:url(../images/background/bg-3.jpg) top fixed;}
+#section-hero-2{ background:url(../images/background/bg-11.jpg) top fixed;}
+#section-hero-3{ background:url(../images/background/bg-12.jpg) top fixed;}
+#section-hero-4{ background:url(../images/background/bg-13.jpg) top fixed;}
+#section-hero-5{ background:url(../images/background/bg-14.jpg) top fixed;}
+#section-hero-6{ background:url(../images/background/bg-17.jpg) top fixed;}
+#section-deco-1{ background:url(../images/background/bg-4.jpg) top fixed;}
+#section-deco-2{ background:url(../images/background/bg-5.jpg) top fixed;}
+#section-deco-3{ background:url(../images/background/bg-15.jpg) top fixed;}
+#section-history-bg{background:url(../images-slider/wide1.jpg) top fixed;}
+#section-skills-bg{background:url(../images-slider/wide2.jpg) top fixed;}
+
+#explore-1{background:#222222;}
+#explore-1.side-bg .background-image {background:url(../images/background/bg-side-1.jpg) top;}
+
+
+/* misc */
+#section-portfolio{width:101%; overflow:hidden;}
+#section-portfolio-deco{background:url(../images/background/bg-8.jpg) top; width:101%; overflow:hidden;}
+#view-all-projects, #call-to-action{padding:60px 0 60px 0;}
+
+
+
+/* media query */
+@media only screen and (min-device-width: 768) and (max-device-width: 1024) and (orientation: portrait){
+	section{
+	-webkit-background-size: auto 100% !important;
+	-moz-background-size: auto 100% !important;
+	-o-background-size: auto 100% !important;
+	background-size: auto 100% !important;
+	background-attachment:scroll !important;
+	}
+}
+@media only screen and (max-width:992px) {
+	#subheader{
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	background-size: cover !important;
+	background-attachment:scroll !important;
+	}
+}
+@media only screen and (max-width: 992px) {
+	section{
+	-webkit-background-size: auto 100% !important;
+	-moz-background-size: auto 100% !important;
+	-o-background-size: auto 100% !important;
+	background-size: auto 100% !important;
+	background-attachment:scroll !important;
+	}
+}

@@ -1,0 +1,152 @@
+#switcher{
+	color:#333;
+	padding:10px;
+	padding-bottom:20px;
+	background:rgba(255,255,255,.9);
+	font-size:12px;
+	position:fixed;
+	z-index:1000;
+	top:150px;
+	left:0;
+	padding-left:20px;
+	font-family:"Open Sans", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-left:-120px;
+	border-radius: 0 0 2px 0;
+	-moz-border-radius: 0 0 2px 0;
+	-webkit-border-radius: 0 0 2px 0;
+	width:120px;
+	display:none;
+}
+
+#switcher .clearfix{
+	margin-bottom:10px;
+}
+
+#switcher span{
+font-size:12px;
+}
+
+.custom-show:after,.custom-close:after{
+	position:absolute;
+	margin-left:100px;
+	margin-top:-10px;
+	display:inline-block;
+	width:42px;
+	height:40px;
+	padding:10px;
+	padding-right:15px;
+	background:rgba(255,255,255,.7) !important;
+	color:#000;
+	border-radius: 0 2px 2px 0;
+	-moz-border-radius: 0 2px 2px 0;
+	-webkit-border-radius: 0 2px 2px 0;
+	cursor:pointer;
+	content:"\f013";
+	font-family:"FontAwesome";
+	font-size:24px;
+	font-weight:normal;
+}
+
+
+
+#de-color {
+	padding:0;
+	margin:0;
+}
+#de-color li{
+	list-style:none;
+	display:inline-block;
+	float:left;
+	width:38px;
+	height:25px;
+	margin:0 5px 5px 0;
+	background:#0C9;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	cursor:pointer;
+}
+
+#de-color li.bg1{background:#88dee8;}
+#de-color li.bg2{background:#94C3F4;}
+#de-color li.bg3{background:#7FC576;}
+#de-color li.bg4{background:#c2c2c2;}
+#de-color li.bg5{background:#f6a835;}
+#de-color li.bg6{background:#d4ab87;}
+#de-color li.bg7{background:#afacc6;}
+#de-color li.bg8{background:#e16060;}
+#de-color li.bg9{background:#ecd201;}
+#de-color li.bg10{background:#82E07F;}
+
+#de-color li:hover{
+opacity:.7;
+}
+
+#switcher select{
+	width:74px !important;
+	font-size:12px;
+	height:25px;
+	border:none;
+	background:#fff;
+	font-weight:600;
+	 -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	background:url(arrow-down.png) right no-repeat #eee;
+	padding-right:22px;
+}
+
+#switcher select:hover{
+	background-color:#ddd;
+}
+
+#de-pattern {
+	padding:0;
+	margin:0;
+}
+#de-pattern li{
+	list-style:none;
+	display:block;
+	float:left;
+	width:18px;
+	height:18px;
+	margin:0 3px 3px 0;
+	border-radius:1px;
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	cursor:pointer;
+	background-color:#555555;
+}
+
+#de-pattern li.p1{background-image:url(../images/bg-pattern/thumbnail/p1.html);}
+#de-pattern li.p2{background-image:url(../images/bg-pattern/thumbnail/p2.html);}
+#de-pattern li.p3{background-image:url(../images/bg-pattern/thumbnail/p3.html);}
+#de-pattern li.p4{background-image:url(../images/bg-pattern/thumbnail/p4.html);}
+#de-pattern li.p5{background-image:url(../images/bg-pattern/thumbnail/p5.html);}
+#de-pattern li.p6{background-image:url(../images/bg-pattern/thumbnail/p6.html);}
+#de-pattern li.p7{background-image:url(../images/bg-pattern/thumbnail/p7.html);}
+#de-pattern li.p8{background-image:url(../images/bg-pattern/thumbnail/p8.html);}
+#de-pattern li.p9{background-image:url(../images/bg-pattern/thumbnail/p9.html);}
+#de-pattern li.p10{background-image:url(../images/bg-pattern/thumbnail/p10.html);}
+#de-pattern li.p11{background-image:url(../images/bg-pattern/thumbnail/p11.html);}
+#de-pattern li.p12{background-image:url(../images/bg-pattern/thumbnail/p12.html);}
+#de-pattern li.p13{background-image:url(../images/bg-pattern/thumbnail/p13.html);}
+#de-pattern li.p14{background-image:url(../images/bg-pattern/thumbnail/p14.html);}
+#de-pattern li.p15{background-image:url(../images/bg-pattern/thumbnail/p15.html);}
+#de-pattern li.p16{background-image:url(../images/bg-pattern/thumbnail/p16.html);}
+#de-pattern li.p17{background-image:url(../images/bg-pattern/thumbnail/p17.html);}
+#de-pattern li.p18{background-image:url(../images/bg-pattern/thumbnail/p18.html);}
+#de-pattern li.p19{background-image:url(../images/bg-pattern/thumbnail/p19.html);}
+#de-pattern li.p20{background-image:url(../images/bg-pattern/thumbnail/p20.html);}
+
+#switcher select,
+#de-color li
+{
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition:.5s;
+ outline: none;
+}

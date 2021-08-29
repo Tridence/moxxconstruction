@@ -1,0 +1,165 @@
+/* default color: #88dee8 */
+.bg-color,
+section.bg-color,
+section.call-to-action,
+#mainmenu li li a:hover,
+#mainmenu ul li:hover > a,
+.price-row,
+.blog-list .date,
+.blog-read .date,
+.slider-info .text1,
+.btn-primary,
+.bg-id-color,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+.dropcap,
+.fullwidthbanner-container a.btn,
+.feature-box-big-icon i,
+#testimonial-full,
+.icon-deco i,
+.blog-list .date-box .day,
+.bloglist .date-box .day,
+.feature-box-small-icon .border,
+.small-border,
+#jpreBar,
+.date-post,
+.team-list .small-border,
+.de-team-list .small-border,
+.btn-line:hover,a.btn-line:hover,
+.btn-line.hover,a.btn-line.hover,
+.owl-arrow span,
+.de-progress .progress-bar,
+#btn-close-x:hover,
+.box-fx .info,
+.de_testi blockquote:before,
+.btn-more,
+.widget .small-border,
+.product img:hover,
+#btn-search,
+.de_tab.timeline li.active .dot,
+.btn-id,
+.tiny-border,
+#back-to-top,
+.owl-theme .owl-controls .owl-page.active span,
+#subheader .small-border-deco span,
+#services-list li a:hover,
+.timeline .tl-block .tl-line,
+.de_tab.tab_style_2 .de_nav li.active span,
+.widget-post .post-date,
+.owl-custom-nav .btn-next:before,
+.owl-custom-nav .btn-prev:before,
+.de_tab.tab_steps.style-2 .de_nav li.active span,
+.feature-box-small-icon.style-2 .number.bg-color
+{
+	background-color:#88dee8;
+}
+
+.feature-box i,
+#mainmenu li:hover > ul,
+#mainmenu li:hover > a,
+.date-box .day,
+.slider_text h1,
+.id-color,
+.pricing-box li h1,
+.title span,
+i.large:hover,
+.feature-box-small-icon-2 i,
+address span i,
+.pricing-dark .pricing-box li.price-row,
+.ratings i,
+#mainmenu a:hover,
+#mainmenu a.active,
+header.smaller #mainmenu a.active,
+.pricing-dark .pricing-box li.price-row,
+.dark .feature-box-small-icon i,
+a.btn-slider:after,
+.feature-box-small-icon i,
+.feature-box-small-icon .number,
+.box-icon-simple i,
+a.btn-line:after,
+.team-list .social a,
+.de_contact_info i,
+.dark .btn-line:hover:after, .dark a.btn-line:hover:after, .dark a.btn-line.hover:after,
+a.btn-text:after,
+.separator span  i,
+address span strong,
+.de_tab.tab_steps .de_nav li span:hover,
+.de_testi_by,
+.pf_text,
+.widget_tags li a,
+.dark .btn-line:after, .dark  a.btn-line:after,
+.crumb a,
+.btn-right:after,
+.btn-left:before,
+#mainmenu li a:after,
+header .info .social i:hover,
+#back-to-top:hover:before,
+#services-list li.active,
+#services-list li.active a:after
+{
+	color:#88dee8;
+}
+
+.feature-box i,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus
+.feature-box-big-icon i:after,
+.social-icons i,
+.btn-line:hover,a.btn-line:hover,
+.btn-line.hover,a.btn-line.hover,
+.product img:hover,
+#contact_form input[type=text]:focus,#contact_form textarea:focus, #search:focus,
+#contact_form .de_light input[type=text]:focus, #contact_form .de_lighttextarea:focus, #contact_form .de_light #search:focus,
+.form-transparent input[type=text]:focus, .form-transparent textarea:focus, .form-transparent input[type=email]:focus,
+.de_tab.tab_steps.style-2 .de_nav li.active span
+{
+
+	border-color:#88dee8;
+}
+
+.box-fx .inner,
+.dark .box-fx .inner,
+.blog-list img,
+.arrow-up
+{
+	border-bottom-color:#88dee8;
+}
+
+.arrow-down{
+	border-top-color:#88dee8;
+}
+
+.callbacks_nav {
+	background-color:#88dee8;
+}
+
+
+.de_tab .de_nav li span {
+border-top: 3px solid #88dee8;
+}
+
+.feature-box-big-icon i:after {
+border-color: #88dee8 transparent; /*same colour as the lower of the bubble's gradient*/
+}
+
+.de_review li.active img{
+	border:solid 4px #88dee8;
+}
+
+.preloader1{
+	border-top-color:#88dee8;
+}
+
+blockquote{
+border-left-color:#88dee8;
+}
+
+

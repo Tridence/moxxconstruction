@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,500,600,700,900,400);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,200,300,500,600,700,800);
+
+html {
+overflow-x:hidden;
+padding: 0 !important;
+background:#fff;
+margin:0px !important;
+}
+
+#revolution-slider{
+background:#222;
+}
+
+.tp-caption{
+color:#fff;
+font-size:14px;
+font-weight:300;
+}
+
+.tp-caption.teaser{
+letter-spacing:5px;
+}
+
+.tp-caption br{
+margin-bottom:5px;
+}
+
+.tp-caption a{
+color:#fff;
+}
+
+.tparrows{ top:50% !important;}
+
+.med{
+font-size:24px;
+letter-spacing:-.5px;
+}
+
+
+.med-white{
+color:#fff;
+font-size:24px;
+letter-spacing:-.5px;
+}
+.med-green{
+color:#1a8b49;
+font-size:24px;
+letter-spacing:-.5px;
+}
+.small-white{
+color:#fff;
+line-height:1.7em;
+}
+
+.big-black{
+font-size:52px;
+letter-spacing:-3px;
+color:#222;
+}
+
+.big-white{
+font-family:"Montserrat";
+font-size:16px;
+color:#fff;
+line-height:normal;
+font-weight:300;
+text-transform:uppercase;
+letter-spacing:6px;
+}
+
+.very-big-white{
+font-family:"Montserrat";
+font-size:64px;
+font-weight:bold;
+color:#fff;
+margin:0;
+letter-spacing:-2px;
+}
+
+
+.ultra-big-white{
+font-family:"Montserrat";
+font-size:120px;
+font-weight:bold;
+color:#fff;
+margin:0;
+}
+
+.ultra-big-black{
+font-size:96px;
+font-weight:400;
+color:#222;
+margin:0;
+line-height:72px;
+}
+
+
+a.btn-slider:hover{
+color:#222;
+}
+
+.tp-caption.separator {
+width:100px;
+border-bottom:solid 1px rgba(255,255,255,.3);
+}
+
